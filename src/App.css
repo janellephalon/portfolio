@@ -1,0 +1,109 @@
+@import url('https://fonts.cdnfonts.com/css/overpass');
+
+* {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.light-weight {
+  font-weight: 300;
+}
+
+/* Navigation  */
+.navbar {
+  background-color: black;
+}
+
+.nav-link {
+  padding-right: 1em;
+}
+
+.navbar-brand {
+  padding-left: 1em;
+}
+
+/* Hero */
+.hero {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* background-image: url('../assets/background.svg'); */
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  padding-left: 8em;
+}
+
+.hero-content {
+  text-align: left;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.typing-text-style {
+  color: #36bf68;
+  font-size: 2.5em;
+  margin-top: 0px;
+}
+
+.button-style {
+  background-color: #36bf68;
+  color: #fff !important;
+  font-size: 1em;
+  border-radius: 3px;
+  border: none;
+  width: 30vh;
+  height: 4vh;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Skills */
+.skills-section {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: #36bf68;
+}
+
+.text-content {
+  flex: 1;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.word-cloud {
+  flex: 2;
+}
+
+.button-style-skills {
+  background-color: #36bf68;
+  color: #fff !important;
+  font-size: 1em;
+  border-radius: 3px;
+  border: none;
+  width: 20vh;
+  height: 4vh;
+  text-align: center;
+}

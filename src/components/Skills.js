@@ -29,6 +29,7 @@ function Skills() {
         <div className="text-content">
           <h2><span className="highlight">Skills</span> and Tools</h2>
           <h5 className='light-weight'>Creating intuitive and responsive web experiences.</h5>
+          <button className='button-style-skills'>My Toolkit</button>
         </div>
 
         <div className="word-cloud">
@@ -38,6 +39,7 @@ function Skills() {
             tags={data}
             disableRandomColor={true}
             shuffle={true}
+            className='tag-cloud-style'
           />
         </div>
       </div>

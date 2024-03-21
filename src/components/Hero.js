@@ -1,9 +1,13 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
+import RightArrow from '../assets/arrow-right-solid.svg';
 
 function Hero() {
+
+  // const sections = ['about', 'portfolio', 'contact'];
+
   return (
-    <div className="hero">
+    <div className="hero wave">
     <div className="hero-content">
       <h1 className="hero-title">Hello, I'm Janelle</h1>
 
@@ -26,10 +30,14 @@ function Hero() {
       </div>
 
       <div>
-        <button href="#contact" className="button-style">Learn More</button>
+        <button href="#contact" className="button-style">
+          Let's Connect
+          <img src={RightArrow} alt="Arrow" className="icon-style" style={{ width: '14px', height: '14px', marginLeft: '10px', color: 'white !important' }} />
+        </button>
       </div>
     </div>
   </div>
+
 );
 }
 

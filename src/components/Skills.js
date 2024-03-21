@@ -20,6 +20,9 @@ const data = [
   { value: 'Microsoft 365', count: 60 },
   { value: 'REST APIs', count: 70 },
   { value: 'jQuery', count: 30 },
+  { value: 'Chrome Dev Tools', count: 60 },
+  { value: 'Java', count: 20 },
+  { value: 'Figma', count: 30 },
 ]
 
 function Skills() {
@@ -29,7 +32,8 @@ function Skills() {
         <div className="text-content">
           <h2><span className="highlight">Skills</span> and Tools</h2>
           <h5 className='light-weight'>Creating intuitive and responsive web experiences.</h5>
-          <button className='button-style-skills'>My Toolkit</button>
+          <hr className='line'/>
+          <button className='button-style-skills'>View My Github</button>
         </div>
 
         <div className="word-cloud">
